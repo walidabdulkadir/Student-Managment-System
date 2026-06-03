@@ -1,0 +1,22 @@
+# --- Relative paths to ignore specific folders in this project ---
+
+# Ignores the node_modules folder inside the backend directory
+backend/node_modules/
+
+
+# --- Generic rules to ignore common files and folders relatively ---
+
+# Ignores any node_modules folder found anywhere in the repository structure
+**/node_modules/
+
+# Ignores log files in any directory
+*.log
+npm-debug.log*
+
+# Ignores local environment/secret files in any directory
+.env
+.env.local
+
+# Ignores editor configuration folders
+.vscode/
+.idea/
