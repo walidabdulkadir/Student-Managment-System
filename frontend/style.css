@@ -1,0 +1,92 @@
+body {
+  background-color: #f4f7fc;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.form-control,
+.form-select {
+  height: 48px;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.btn {
+  border-radius: 8px;
+}
+img {
+  width: 25px;
+  height: 25px;
+}
+.editBtn {
+  border: none;
+  background-color: #f59e0b;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s, transform 0.1s;
+  margin-right: 4px;
+}
+.editBtn:hover {
+  background-color: #d97706;
+}
+.editBtn:active {
+  transform: scale(0.95);
+}
+
+.deleteBtn {
+  border: none;
+  background-color: #ef4444;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+.deleteBtn:hover {
+  background-color: #dc2626;
+}
+.deleteBtn:active {
+  transform: scale(0.95);
+}
+
+/* Department Badge Pill Colors */
+.badge-se {
+  background-color: #fef3c7;
+  color: #d97706;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+.badge-cs {
+  background-color: #e8f8f0;
+  color: #16a34a;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+.badge-it {
+  background-color: #f3e8ff;
+  color: #9333ea;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
+.badge-is {
+  background-color: #e0f2fe;
+  color: #0284c7;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+}
