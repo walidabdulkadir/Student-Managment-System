@@ -50,8 +50,8 @@ Open `frontend/index.html` in your browser (double-click or serve the folder wit
 Tip: For CORS-free local testing, you can serve the `frontend/` directory with a simple static server, for example:
 
 ```bash
-npx http-server frontend -p 8080
-# then open http://localhost:8080
+npx http-server frontend -p 7000
+# then open http://localhost:7000
 ```
 
 ## API Overview
@@ -68,21 +68,17 @@ Examples (using `curl`):
 
 ```bash
 # List students
-curl http://localhost:3000/students
+curl http://localhost:7000/students
 
 # Create a student
 curl -X POST -H "Content-Type: application/json" \
   -d '{"name":"Jane Doe","email":"jane@example.com"}' \
-  http://localhost:3000/students
+  http://localhost:7000/students
 ```
 
 ## Configuration
 
 - Port and other small settings can be configured in `backend/server.js` (or environment variables if already supported).
-
-## Testing
-
-This project does not include an automated test suite by default. To add tests, consider using Jest or Mocha for backend routes and a headless browser test for the frontend.
 
 ## Contributing
 
@@ -93,20 +89,10 @@ Contributions are welcome. Suggested workflow:
 3. Implement changes and add tests
 4. Open a pull request describing the changes
 
-## License
-
-Specify your license here (e.g., MIT). If you need a license file added, tell me and I will add `LICENSE`.
 
 ## Contacts & Support
 
 If you have questions or need help, open an issue in this repository or contact the maintainers.
 
 ---
-
-If you want, I can:
-
-- add a LICENSE file (MIT recommended),
-- expand the API docs with exact request/response examples based on `backend/server.js`, or
-- add a quick `start` script to serve the frontend and backend together.
-
-Tell me which of the above you'd like next.
+Made By Walid
